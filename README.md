@@ -10,7 +10,7 @@ Dado que o cliente quer alugar um carro de luxo E o cliente faz a reserva com pe
 Dado que o cliente precisa alugar um carro utilitário de última hora E o cliente não possui uma reserva prévia Quando o sistema processa o aluguel Então o sistema deve encontrar um veículo disponível E o sistema deve processar o aluguel rapidamente E o sistema deve informar que o custo será um pouco mais alto devido à demanda urgente
 
 Gerkin do Cenário
-
+```gherkin
 Funcionalidade: Sistema de Locação de Carros
   Como um cliente
   Eu quero alugar um carro
